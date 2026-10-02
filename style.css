@@ -1,0 +1,155 @@
+body {
+    height: 100vh;
+}
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+.links {
+    display: flex;
+    gap: 16px;
+}
+.links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  padding: 8px 30px;
+  width: auto;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.content-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 50px;
+}
+.content {
+    padding: 20px;
+    flex: 1;
+}
+.placeholder {
+    background-color: #6b7280;
+    padding: 80px 20px;
+    text-align: center;
+    flex: 1;
+}
+.content1 {
+    font-size: 48px;
+    font-weight: 900;
+     margin: 0;
+}
+
+.content2 {
+  margin: 12px 0;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin: 40px 0 48px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 12px;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding-bottom: 50px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+.second-content {
+    Background-color: #E5E7EB;
+    Color: #1F2937;
+    display: flex; 
+    flex-direction: column;
+    padding: 100px;
+}
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 8px 40px 0 0;
+}
+.line {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+.footer {
+  padding: 100px 80px;
+}
+
+.content-signup {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px 100px;
+}
+
+.line1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.line2 {
+  margin: 4px 0 0;
+  color: #E5E7EB;
+}
+
+.button2 {
+  border: 2px solid white;
+  padding: 8px 30px;
+  flex-shrink: 0;
+}
+.last-line {
+    background-color: #1F2937;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    padding: 30px;
+}
